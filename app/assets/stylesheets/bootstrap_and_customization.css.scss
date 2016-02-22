@@ -1,0 +1,44 @@
+$body-bg:		#e74c3c;
+$navbar-default-bg: #c0392b;
+$navbar-default-link-color: #ecf0f1;
+$jumbotron-bg: #2c3e50;
+$jumbotron-heading-color: white;
+$jumbotron-color: white;
+$brand-primary: #c0392b;
+$brand-info: #e74c3c;
+$brand-danger: #720B00;
+$headings-color: white;
+$headings-font-family: Georgia, serif;
+$font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
+$font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;
+$font-family-base: Arimo, $font-family-sans-serif !default;
+@import 'bootstrap';
+
+h1 {
+	font-family: Pacifico;
+}
+
+
+//Background-classes
+
+//Green
+.nephritis {
+	background-color: #27ae60;
+}
+
+
+//Orange
+.pumpkin {
+	background-color: #d35400;
+}
+
+//Blue-Green
+.greensea {
+	background-color: #16a085;
+}
+
+//Purple
+.wisteria {
+	backgorund-color: #8e44ad;
+}

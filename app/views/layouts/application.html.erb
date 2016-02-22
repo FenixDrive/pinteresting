@@ -5,12 +5,17 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='stylesheet' id='Pacifico-css'  href='http://fonts.googleapis.com/css?family=Pacifico&#038;subset=latin&#038;ver=4.3.3' type='text/css' media='all' />
+<link rel='stylesheet' id='Raleway-css'  href='http://fonts.googleapis.com/css?family=Raleway%3A500&#038;subset=latin&#038;ver=4.3.3' type='text/css' media='all' />
+<link rel='stylesheet' id='Arimo-css' href='http://fonts.googleapis.com/css?family=Arimo' type='text/css' media='all'>
 </head>
 <body>
-	
-	<%= link_to "Home", root_path %>
-	<%= link_to "About Us", about_path %>
-	<%= yield %>
+
+<%= render 'layouts/header' %>
+	<div class="container">	
+		<%= yield %>
+	</div>
 
 </body>
 </html>
