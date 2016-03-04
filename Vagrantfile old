@@ -49,6 +49,10 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     }
   end
 
+Vagrant::Config.run do |config|
+   # stuff
+   config.ssh.forward_agent = true
+end
 
 end
 
